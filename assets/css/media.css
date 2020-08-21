@@ -1,0 +1,55 @@
+@media screen and (max-width: 1260px) {
+    .services_container {
+        width: 80%;
+    }
+}
+@media screen and (max-width:1160px) {
+    .phone_number {
+        font-size: 15px;
+    }
+    .header_logo img {
+        width: 70%;
+    }
+    .services_item {
+        width: 23%;
+    }
+}
+@media screen and (max-width: 1085px) {
+    .header_top {
+        width: 80%;
+    }
+    .line-1 {
+        left: 45%;
+    }
+    .line-2 {
+        left: 65%;
+    }
+}
+@media screen and (max-width: 959px) {
+    .phone_number {
+        font-size: 12px;
+    }
+    .header_link {
+        font-size: 12px;
+    }
+    .header_logo img {
+        width: 60%;
+    }
+
+}
+@media screen and (max-width: 910px) {
+    .phone_number {
+        font-size: 10px;
+    }
+    .header_link {
+        font-size: 10px;
+    }
+    .header_logo img {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 835px) {
+    .header_ul {
+        width: 110%;
+    }
+}
