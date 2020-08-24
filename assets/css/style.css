@@ -710,6 +710,7 @@ a {
      background-size: cover;
      height: 100vh;
      padding: 20px 0;
+     border-bottom: 15px solid #78E9F9;
      box-sizing: border-box;
 }
 .order_container {
@@ -853,4 +854,96 @@ input[type="checkbox"]:checked ~ span{
     top: 10%;
     right: 10%;
     transform: rotate(-30deg);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #0E122E;
+    padding-bottom: 40px;
+    position: relative;
+}
+.footer_container {
+    width: 80%;
+    margin: 0 auto;
+}
+.footer_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo {
+    width: 40%;
+    margin-top: 40px;
+}
+.footer_nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_social_media {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_social_media a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer_nav h3 {
+    color: #fff;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer_services, .footer_menu, .footer_contact {
+    display: flex;
+    flex-direction: column;
+}
+.footer_nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 7px;
+}
+.footer_nav a:hover {
+    color: #78E9F9;
+    text-shadow: 0px 0px 19px rgba(120, 233, 249, 0.76);
+}
+.footer_group_8 {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    width: 70px;
+    transform: rotate(-70deg);
+}
+.footer_blue_top {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    height: 5%;
+    width: 8%;
+    background-color: #78E9F9;
+    box-shadow: 0px 0px 10px #78E9F9;
+}
+.footer_blue_left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 45%;
+    width: 2%;
+    background-color: #78E9F9;
+}
+.footer_blue_right {
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    height: 5vh;
+    width: 5vh;
+    background-color: #78E9F9;
+    box-shadow: 0px 0px 10px #78E9F9;
 }

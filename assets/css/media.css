@@ -3,6 +3,18 @@
         width: 80%;
     }
 }
+@media screen and (max-width: 1190px) {
+    .checkbox label {
+        font-size: 14px;
+    }
+    .form_span {
+        width: 10px;
+        height: 10px;
+    }
+    .first_line input {
+        width: 40%;
+    }
+}
 @media screen and (max-width:1160px) {
     .phone_number {
         font-size: 15px;
@@ -23,6 +35,18 @@
     }
     .line-2 {
         left: 65%;
+    }
+    .checkbox label {
+        font-size: 12px;
+    }
+    .form_span {
+        width: 9px;
+        height: 9px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .checkbox label {
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 959px) {
@@ -51,5 +75,11 @@
 @media screen and (max-width: 835px) {
     .header_ul {
         width: 110%;
+    }
+}
+@media screen and (max-width: 835px) {
+    .form_span {
+        width: 8px;
+        height: 8px;
     }
 }
