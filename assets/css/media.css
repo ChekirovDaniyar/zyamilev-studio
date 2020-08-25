@@ -2,6 +2,17 @@
     .services_container {
         width: 80%;
     }
+    .footer_social_media a {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .analytics {
+        font-size: 17px;
+    }
+    .nubmers {
+        font-size: 40px;
+    }
 }
 @media screen and (max-width: 1190px) {
     .checkbox label {
@@ -25,6 +36,18 @@
     .services_item {
         width: 23%;
     }
+    .order_heading_line {
+        width: 42vw;
+    }
+    .footer_social_media a {
+        font-size: 16px;
+    }
+    .about_1_left h2 {
+        font-size: 34px;
+    }
+    .social_media span {
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 1085px) {
     .header_top {
@@ -43,10 +66,45 @@
         width: 9px;
         height: 9px;
     }
+    .order_heading_line {
+        width: 40.7vw;
+    }
+    .analytics {
+        font-size: 15px;
+    }
+    .nubmers {
+        font-size: 37px;
+    }
+    .about_1_left h2 {
+        font-size: 33px;
+    }
+    .about_1_right p {
+        font-size: 14px;
+    }
+    .work_line_3 {
+        right: 2%;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .about_1_left h2 {
+        font-size: 30px;
+    }
+    .about_1_right p {
+        font-size: 13px;
+    }
+    .social_media span {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 980px) {
     .checkbox label {
         font-size: 10px;
+    }
+    .order_heading_line {
+        width: 40vw;
+    }
+    .works_ul {
+        width: 60%;
     }
 }
 @media screen and (max-width: 959px) {
@@ -59,7 +117,35 @@
     .header_logo img {
         width: 60%;
     }
-
+    .footer_social_media a {
+        font-size: 14px;
+    }
+    .footer_nav a {
+        font-size: 11px;
+    }
+    .analytics {
+        font-size: 13px;
+    }
+    .nubmers {
+        font-size: 34px;
+    }
+    .social_media span {
+        font-size: 12px;
+    }
+    .about_1_left h2 {
+        font-size: 27px;
+    }
+}
+@media screen and (max-width: 930px) {
+    .order_heading_line {
+        width: 38.8vw;
+    }
+    .about1_group8 {
+        left: 40%;
+    }
+    .item_lorem p {
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 910px) {
     .phone_number {
@@ -71,15 +157,45 @@
     .header_logo img {
         width: 60%;
     }
+    .work_r_4 {
+        right: 20%;
+    }
 }
-@media screen and (max-width: 835px) {
-    .header_ul {
-        width: 110%;
+@media screen and (max-width: 860px) {
+    .order_heading_line {
+        width: 37.6vw;
+    }
+    .footer_social_media a {
+        font-size: 12px;
+    }
+    .analytics {
+        font-size: 11px;
+    }
+    .nubmers {
+        font-size: 30px;
+    }
+    .about_1_left h2 {
+        font-size: 25px;
+    }
+    .work_line_3 {
+        right: 1%;
+    }
+}
+@media screen and (max-width: 820px) {
+    .checkbox label {
+        font-size: 9px;
+    }
+    .form_span {
+        width: 7px;
+        height: 7px;
     }
 }
 @media screen and (max-width: 835px) {
     .form_span {
         width: 8px;
         height: 8px;
+    }
+    .social_media span {
+        font-size: 11px;
     }
 }
