@@ -1,5 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 body {
     margin: 0;
@@ -624,6 +625,7 @@ a {
     margin: 0px 20px;
     width: 10vw;
     height: 10vw;
+    box-sizing: content-box;
 }
 .about_work_heading {
     margin-left: 20%;
